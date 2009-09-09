@@ -1,0 +1,10 @@
+category: X11
+requires: libclutter-box2d0.10_0 libglib2.0-devel libclutter1.0-devel libstdc++6-devel
+external-source: clutter-box2d0.10
+sdesc: "OpenGL-based animated GUI library (Box2D libdevel)"
+ldesc: "Clutter is an open source software library for creating fast, 
+visually rich and animated graphical user interfaces.
+
+Clutter uses OpenGL for rendering but with an API which hides the 
+underlying GL complexity from the developer. The Clutter API is intended 
+to be easy to use, efficient and flexible."

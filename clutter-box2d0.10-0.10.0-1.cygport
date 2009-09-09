@@ -1,0 +1,14 @@
+ORIG_PN="clutter-box2d"
+inherit gnome2
+
+DESCRIPTION="Clutter Box2D library"
+HOMEPAGE="http://clutter-project.org/"
+SRC_URI="http://www.clutter-project.org/sources/${ORIG_PN}/${PV_MAJ_MIN}/${ORIG_PN}-${PV}.tar.bz2"
+PATCH_URI="0.8.2-no-undefined.patch
+           0.8.2-vpath.patch
+           0.10.0-introspection.patch"
+
+PKG_NAMES="${PN} lib${PN}_0 lib${PN}-devel gobject-introspection-ClutterBox2D0.10"
+libclutter_box2d0_10_0_CONTENTS="usr/bin/*-0.10-0.dll usr/share/doc/"
+libclutter_box2d0_10_devel_CONTENTS="usr/include/ usr/lib/lib* usr/lib/pkgconfig/ usr/share/gtk-doc/"
+gobject_introspection_ClutterBox2D0_10_CONTENTS="usr/*/gir*/ClutterBox2D-0.10.*"

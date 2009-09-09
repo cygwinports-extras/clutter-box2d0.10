@@ -1,0 +1,10 @@
+--- origsrc/clutter-box2d-0.8.2/box2d/Makefile.am	2009-01-22 09:29:30.000000000 -0600
++++ src/clutter-box2d-0.8.2/box2d/Makefile.am	2009-02-24 14:29:06.841750000 -0600
+@@ -1,6 +1,6 @@
+ noinst_LTLIBRARIES = libbox2d.la
+ 
+-INCLUDES = @GCC_FLAGS@ -ISource -I. -IInclude
++INCLUDES = @GCC_FLAGS@ -I$(srcdir)/Source -I$(srcdir)/Include
+ 
+ EXTRA_DIST = Readme.txt License.txt
+ 
