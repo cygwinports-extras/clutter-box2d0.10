@@ -1,5 +1,5 @@
 category: X11
-requires: libclutter-box2d0.10_0 gobject-introspection-Clutter1.0 gobject-introspection-GLib2.0 gobject-introspection-Pango1.0 gobject-introspection-x11
+requires: libclutter-box2d0.10_0 girepository-Clutter1.0 girepository-GLib2.0 girepository-Pango1.0 girepository-x11
 external-source: clutter-box2d0.10
 sdesc: "OpenGL-based animated GUI library (Box2D GObjectIntrospection)"
 ldesc: "Clutter is an open source software library for creating fast, 
